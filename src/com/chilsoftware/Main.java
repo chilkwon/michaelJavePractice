@@ -6,6 +6,8 @@ public class Main {
 	// write your code here
         Schedule sc = new Schedule();
         sc.AddingSchedule();
-         System.out.println(sc.getList().contains("chil"));
+//retrieve only chil's all day activities
+        sc.getList().stream().filter(person-> person.getName() =="chil").forEach(System.out::println);
+
     }
 }

@@ -2,10 +2,10 @@ package com.chilsoftware;
 
 public class Person {
 
-    String name;
-    String activity;
-    String time;
-    String day;
+    private String name;
+    private String activity;
+    private String time;
+    private String day;
 
     Person(String name, String activity, String time, String day){
         this.name = name;
